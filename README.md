@@ -1,3 +1,4 @@
+# REG NO: 212224040155
 # EX. NO: 1(A) : IMPLEMENTATION OF CAESAR CIPHER
 
 ## AIM:
@@ -26,14 +27,15 @@ text[i]=((text[i]-'A' + shift) % 26) + 'A';
 } 
 } 
 int main() 
-{ 
-} 
-char text[]="KEERTHANA"; 
+{
+har text[]="KEERTHANA"; 
 ceasarCipher(text,3); 
 printf("Encrypted Message: %s\n",text); 
 ceasarCipher(text,-3); 
 printf("Decrypted Message: %s\n",text); 
 return 0;
+} 
+
 ```
 
 ## OUTPUT:
